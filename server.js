@@ -1,4 +1,3 @@
-import path from 'path';
 import express from 'express';
 import 'dotenv/config.js';
 import cookieParser from 'cookie-parser';
