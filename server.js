@@ -33,7 +33,7 @@ import bookings from './routes/booking.js'
 const app = express();
 
 //Body parser
-app.use(express.json());
+app.use(express.json({extended: false}));
 
 // file upload
 app.use(fileUpload());
